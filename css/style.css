@@ -10,11 +10,11 @@
 
 
 .header {
-     margin: 0px;
+     margin: 0;
      padding: 0px;
    }
 
-.header img {
+.logo {
       width: 10%;
       height: 15%;
       border: none;
@@ -39,8 +39,8 @@
 
 .top_menu li {
         display: inline;
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
         color: white;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .left-menu a {
-  display: inline-block;
+  display: block;
   color: grey;
   text-decoration: none;
   padding: 10px 30px;
@@ -107,13 +107,11 @@
          color: black;
  }
 
-img {
+.content-pic {
       display: inline-block;
       height: 400px;
       width: 677px;
       border: solid 1px #c8c8c8;
-      margin-top: 30px;
-      margin-left: 48px;
     }
 
 
@@ -145,8 +143,8 @@ img {
 
 .bottom_menu li {
         display: inline;
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
         color: black;
 }
 
